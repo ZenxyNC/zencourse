@@ -11,7 +11,7 @@ export default function Home() {
   if (isLoggedIn) {
 
   } else {
-    navigate('/app/login', {replace : true})
+    navigate('/zencourse/login', {replace : true})
   }
   
   return (

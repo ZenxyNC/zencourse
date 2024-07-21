@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/ZenCourse/login" element={<Login />} />
-        <Route path="/ZenCourse/home" element={<Home />} />
-        <Route path="/*" element={<MainApp />} />
+        <Route path="/zencourse/login" element={<Login />} />
+        <Route path="/zencourse/home" element={<Home />} />
+        <Route path="/zencourse/" element={<MainApp />} />
       </Routes>
     </Router>
   );
@@ -29,18 +29,12 @@ function MainApp() {
         name: localStorage.getItem('name'),
         email: localStorage.getItem('email')
       });
+      navigate('/zencourse/home')
     } else {
-      navigate('/ZenCourse/login', { replace: true });
+      navigate('/zencourse/login', { replace: true });
     }
   }, [isLoggedIn, navigate]);
 
-  return (
-    <div>
-      {/* Your main app components go here */}
-      <h1>Welcome, {userInfo.name}</h1>
-      <p>Email: {userInfo.email}</p>
-    </div>
-  );
 }
 
 export default App;
