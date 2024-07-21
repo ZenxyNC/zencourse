@@ -18,7 +18,7 @@ export default function Login() {
     if (validation) {
       localStorage.setItem('user', UID)
       localStorage.setItem('isLoggedIn', true)
-      navigate('/ZenCourse/home', {replace : true})
+      navigate('/zencourse/home', {replace : true})
     } else {
       console.log('Login failed')
     }
