@@ -30,7 +30,7 @@ function MainApp() {
         email: localStorage.getItem('email')
       });
     } else {
-      navigate('/app/login', { replace: true });
+      navigate('/ZenCourse/login', { replace: true });
     }
   }, [isLoggedIn, navigate]);
 
