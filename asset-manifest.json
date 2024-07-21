@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/zencourse/static/css/main.c3578005.css",
-    "main.js": "/zencourse/static/js/main.dbed5853.js",
-    "static/js/453.a6a97343.chunk.js": "/zencourse/static/js/453.a6a97343.chunk.js",
+    "main.css": "/zencourse/static/css/main.b18e03c6.css",
+    "main.js": "/zencourse/static/js/main.805505a0.js",
+    "static/js/453.31bf9d75.chunk.js": "/zencourse/static/js/453.31bf9d75.chunk.js",
+    "static/media/Wednesday-XI.png": "/zencourse/static/media/Wednesday-XI.04cd587969506085ea92.png",
+    "static/media/Monday-XI.png": "/zencourse/static/media/Monday-XI.af521361dea8cd27b9d8.png",
+    "static/media/Tuesday-XI.png": "/zencourse/static/media/Tuesday-XI.68b233f7009758785079.png",
+    "static/media/Thursday-XI.png": "/zencourse/static/media/Thursday-XI.7e8f5bce417051267bfb.png",
+    "static/media/Friday-XI.png": "/zencourse/static/media/Friday-XI.d4e55b0ec365d37b1a04.png",
     "static/media/Icon.png": "/zencourse/static/media/Icon.7c5075c58c80571ceb7c.png",
     "static/media/ProductSans-Regular.ttf": "/zencourse/static/media/ProductSans-Regular.2765c69613690b1b9c03.ttf",
     "static/media/ProductSans-Thin.ttf": "/zencourse/static/media/ProductSans-Thin.cc886c2747bf6f2c4888.ttf",
@@ -11,12 +16,12 @@
     "static/media/ProductSans-Bold.ttf": "/zencourse/static/media/ProductSans-Bold.153c4f86d79ce54c810c.ttf",
     "static/media/ProductSans-Black.ttf": "/zencourse/static/media/ProductSans-Black.99679fcb879a842df8c5.ttf",
     "index.html": "/zencourse/index.html",
-    "main.c3578005.css.map": "/zencourse/static/css/main.c3578005.css.map",
-    "main.dbed5853.js.map": "/zencourse/static/js/main.dbed5853.js.map",
-    "453.a6a97343.chunk.js.map": "/zencourse/static/js/453.a6a97343.chunk.js.map"
+    "main.b18e03c6.css.map": "/zencourse/static/css/main.b18e03c6.css.map",
+    "main.805505a0.js.map": "/zencourse/static/js/main.805505a0.js.map",
+    "453.31bf9d75.chunk.js.map": "/zencourse/static/js/453.31bf9d75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3578005.css",
-    "static/js/main.dbed5853.js"
+    "static/css/main.b18e03c6.css",
+    "static/js/main.805505a0.js"
   ]
 }
