@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/ZenCourse/login" element={<Login />} />
         <Route path="/ZenCourse/home" element={<Home />} />
-        <Route path="/ZenCourse/" element={<MainApp />} />
+        <Route path="/*" element={<MainApp />} />
       </Routes>
     </Router>
   );

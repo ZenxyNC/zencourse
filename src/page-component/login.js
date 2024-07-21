@@ -40,7 +40,7 @@ export default function Login() {
     console.log(security.type, security.ssc)
   }
 
-  const UIDInput = useRef(null);
+  const UIDInput = useRef();
   useEffect(() => {
     UIDInput.current.focus();
   }, [])
