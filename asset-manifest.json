@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZenCourse/static/css/main.0c6f5cc5.css",
-    "main.js": "/ZenCourse/static/js/main.aaa4906f.js",
+    "main.js": "/ZenCourse/static/js/main.4c630e0e.js",
     "static/js/453.a6a97343.chunk.js": "/ZenCourse/static/js/453.a6a97343.chunk.js",
     "static/media/Icon.png": "/ZenCourse/static/media/Icon.7c5075c58c80571ceb7c.png",
     "static/media/ProductSans-Regular.ttf": "/ZenCourse/static/media/ProductSans-Regular.2765c69613690b1b9c03.ttf",
@@ -12,11 +12,11 @@
     "static/media/ProductSans-Black.ttf": "/ZenCourse/static/media/ProductSans-Black.99679fcb879a842df8c5.ttf",
     "index.html": "/ZenCourse/index.html",
     "main.0c6f5cc5.css.map": "/ZenCourse/static/css/main.0c6f5cc5.css.map",
-    "main.aaa4906f.js.map": "/ZenCourse/static/js/main.aaa4906f.js.map",
+    "main.4c630e0e.js.map": "/ZenCourse/static/js/main.4c630e0e.js.map",
     "453.a6a97343.chunk.js.map": "/ZenCourse/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6f5cc5.css",
-    "static/js/main.aaa4906f.js"
+    "static/js/main.4c630e0e.js"
   ]
 }
