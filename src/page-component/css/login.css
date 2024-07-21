@@ -1,0 +1,153 @@
+html {
+  background-color: #212832
+}
+@font-face {
+  font-family: GSansBlack;
+  src: url('../../resource/font/ProductSans-Black.ttf');
+}
+@font-face {
+  font-family: GSansBold;
+  src: url('../../resource/font/ProductSans-Bold.ttf');
+}
+@font-face {
+  font-family: GSansMedium;
+  src: url('../../resource/font/ProductSans-Medium.ttf');
+}
+@font-face {
+  font-family: GSansRegular;
+  src: url('../../resource/font/ProductSans-Regular.ttf');
+}
+@font-face {
+  font-family: GSansLight;
+  src: url('../../resource/font/ProductSans-Light.ttf');
+}
+@font-face {
+  font-family: GSansThin;
+  src: url('../../resource/font/ProductSans-Thin.ttf');
+}
+#base-div {
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type='text']{
+  width: 327px;
+  height: 40px;
+  padding-left: 10px;
+  font-family: 'GSansMedium';
+  font-size: 17px;
+  color: #E8E8E8;
+  background-color: #31475E;
+  border: none;
+  border-radius: 7px
+}
+.ssctype-input.password{
+  width: 327px;
+  height: 40px;
+  padding-left: 10px;
+  font-family: 'GSansMedium';
+  font-size: 17px;
+  color: #E8E8E8;
+  background-color: #31475E;
+  border: none;
+  border-radius: 7px;
+  margin-top: 5px
+}
+.ssctype-input.secpin{
+  width: 163px;
+  height: 40px;
+  padding-left: 10px;
+  font-family: 'GSansMedium';
+  font-size: 17px;
+  color: #E8E8E8;
+  background-color: #31475E;
+  border: none;
+  border-radius: 7px;
+  margin-top: 5px
+}
+input::placeholder {
+  color: rgb(232, 232, 232, 0.3)
+}
+input {
+  outline: none;
+}
+button[type="submit"] {
+  width: 339px;
+  height: 40px;
+  font-family: 'GSansMedium';
+  font-size: 17px;
+  color: #E8E8E8;
+  background-color: #007AFF;
+  border: none;
+  border-radius: 7px;
+  margin-top: 30px
+}
+#sscType {
+  width: 339px;
+  height: 50px;
+  font-family: 'GSansMedium';
+  font-size: 17px;
+  color: #E8E8E8;
+  background-color: #31475E;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#sscType span:nth-child(1) {
+  width: 162px;
+  height: 50px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  left: 5px;
+  z-index: 100
+}
+#sscType span:nth-child(2) {
+  width: 162px;
+  height: 50px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  right: 5px;
+  z-index: 100
+}
+.selected-ssctag.password {
+  width: 162px;
+  height: 40px;
+  position: absolute;
+  background-color: #007AFF;
+  top: 5px;
+  z-index: 10;
+  left: 5px;
+  border-radius: 5px;
+}
+.selected-ssctag.secpin {
+  width: 162px;
+  height: 40px;
+  position: absolute;
+  background-color: #007AFF;
+  top: 5px;
+  z-index: 10;
+  right: 5px;
+  border-radius: 5px;
+}
+
+.forgotten {
+  color: #007AFF;
+  font-family: 'GSansMedium';
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 10px
+}
+
+@media screen and (max-width: 900px) {
+  
+}

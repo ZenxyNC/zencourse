@@ -1,0 +1,109 @@
+html {
+  background-color: #212832
+}
+
+#homenav {
+  display: none
+}
+#widget-base {
+  position: absolute;
+  background-color: gray;
+  width: 600px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80px
+}
+.user-greeting {
+  font-family: 'GSansMedium';
+  color: #E8E8E8;
+  position: absolute;
+}
+.desktop-greeting {
+  display: block
+}
+.user-greeting span:nth-child(1) {
+  font-size: 20px;
+}
+.user-greeting span:nth-child(3) {
+  font-size: 45px;
+  font-family:'GSansBlack';
+}
+#widget {
+  width: 100%;
+  height: max-content;
+  background-color: black;
+  position: absolute
+}
+
+@media screen and (max-width: 900px) {
+  #homenav {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #31475e;
+    border-radius: 0px 0px 30px 30px;
+    display: block;
+    top: 0px;
+    left: 0px;
+    color: #E8E8E8
+  }
+  #homenav-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  #user-greeting {
+    font-family: 'GSansMedium';
+    color: #E8E8E8;
+    position: absolute;
+    bottom: 2px;
+    left: 15px
+  }
+  #user-greeting span:nth-child(1) {
+    font-size: 17px;
+  }
+  #user-greeting span:nth-child(3) {
+    font-size: 35px;
+    font-family:'GSansBlack'
+  }
+  #widget-base {
+    position: absolute;
+    background-color: transparent;
+    width: 400px;
+    height: calc(100% - 200px);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 220px
+  }
+  .desktop-greeting {
+    display: none;
+  }
+  .widget-body {
+    width: calc(100% / 2);
+    background-color: #31475e;
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    max-width: 220px;
+    max-height: 220px;
+    border-radius: 20px
+  }
+  #widget {
+    width: calc(100% - 10px);
+    height: max-content;
+    background-color: transparent;
+    position: absolute;
+  }
+  #widget span:nth-child(2) {
+    right: -10px
+  }
+  .widget-title {
+    font-family: 'GSansBlack';
+    font-size: 23px;
+    margin-bottom: 18px;
+    color: #E8E8E8
+  }
+}
