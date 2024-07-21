@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/zencourse/login" element={<Login />} />
-        <Route path="/zencourse/home" element={<Home />} />
-        <Route path="/zencourse/" element={<MainApp />} />
+        <Route path="/ZenCourse/login" element={<Login />} />
+        <Route path="/ZenCourse/home" element={<Home />} />
+        <Route path="/ZenCourse/" element={<MainApp />} />
       </Routes>
     </Router>
   );
@@ -29,9 +29,9 @@ function MainApp() {
         name: localStorage.getItem('name'),
         email: localStorage.getItem('email')
       });
-      navigate('/zencourse/home')
+      navigate('/ZenCourse/home')
     } else {
-      navigate('/zencourse/login', { replace: true });
+      navigate('/ZenCourse/login', { replace: true });
     }
   }, [isLoggedIn, navigate]);
 
