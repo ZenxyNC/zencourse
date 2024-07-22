@@ -85,7 +85,7 @@ html {
     height: calc(100% - 200px);
     left: 50%;
     transform: translateX(-50%);
-    top: 20px
+    top: 100px
   }
   .desktop-greeting {
     display: none;
