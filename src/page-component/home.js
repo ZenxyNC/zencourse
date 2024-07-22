@@ -4,11 +4,22 @@ import './css/home.css'
 import zen from './Icon.png'
 
 export default function Home() {
+  const quotesQuery = [
+    "School isn't the priority, it just a formality.",
+    "Experience and exploration are the best teacher.",
+    "Everything starts from your mindset",
+    "There's always hard time in everything.",
+    "School isn't the only way to learn things",
+    "You're not failing, but you find a thousands of ways that won't work"
+  ]
+  function getQuotes() {
+    return quotesQuery[Math.trunc(Math.random() * quotesQuery.length)]
+  }
   const [username, setUsername] = useState(localStorage.getItem('user'))
   const [isLoggedIn, setLogs] = useState(localStorage.getItem('isLoggedIn'))
-  const [quotes, setQuotes] = useState();
+  const [quotes, setQuotes] = useState(getQuotes());
   const [isQuotes, setIsQuotes] = useState(false) 
-  const [quotesState, setQuoteState] = useState("Quotes of the day")
+  const [quotesState, setQuoteState] = useState("Quotes")
   const navigate = useNavigate()
 
   if (isLoggedIn) {
@@ -19,10 +30,10 @@ export default function Home() {
   function setQuotesStatus() {
     if (isQuotes) {
       setIsQuotes(false)
-      setQuoteState("Quotes of the day")
+      setQuoteState("Quotes")
     } else {
       setIsQuotes(true)
-      setQuoteState("Don't learn only from school!")
+      setQuoteState(quotes)
     }
   }
   

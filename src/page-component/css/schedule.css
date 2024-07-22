@@ -19,7 +19,10 @@
 #schedule-image {
   width: 100%;
   margin-top: 100px;
-  max-width: 530px
+  max-width: 530px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
 }
 #day-selector {
   width: 431px;
@@ -28,7 +31,9 @@
   position: fixed;
   bottom: 10px;
   left: 10px;
-  border-radius: 15px
+  border-radius: 15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .day-button.idle {
   width: 80.2px;
@@ -109,18 +114,79 @@
   place-items: center;
 }
 
-#navigation-page {
+.navigation-page.show {
   width: calc(100% - 80px);
-  max-width: 550px;
+  max-width: 500px;
+  position: absolute;
+  height: 100%;
+  background-color: #212832c8;
+  backdrop-filter: blur(30px);
+  z-index: 51;
+  transition: 0.5s ease;
+  left: 0%;
+  box-shadow: 0px 0px 30px -10px #31475E
+}
+#navigationPage-title {
+  color: #E8E8E8;
+  font-size: 30px;
+  font-family: 'GSansBold';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px
+}
+#navigation-content-grid {
+  width: calc(100% - 100px);
+  height: 4px;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80px
+}
+.navigation-page.hidden {
+  width: calc(100% - 80px);
+  max-width: 500px;
   position: absolute;
   height: 100%;
   background-color: rgb(33, 40, 50, 0.7);
   backdrop-filter: blur(0px);
   z-index: 51;
-  transition: 0.5s;
-  left: -100%
+  transition: 0.5s ease;
+  left: -100%;
+  box-shadow: 0px 0px 30px -10px transparent
+}
+.navigation-content-href {
+  width: 100%;
+  height: calc(100% - 100px);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color:transparent;
+  text-align: center;
+}
+.navigation-href-title {
+  font-family: 'GSansMedium';
+  font-size: 21px;
+  color: #E8E8E8;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+.navigation-href-title:hover {
+  font-family: 'GSansMedium';
+  font-size: 23px;
+  color: #E8E8E8;
+  cursor: pointer;
+  transition: 0.2s ease all
 }
 @media screen and (min-width: 900px) {
+  #navbar-icon{
+    width: 50px;
+    border-radius: 100px;
+    margin: 5px 0px 0px 5px;
+    position: absolute
+  }
   #schedule-image {
     width: 100%;
     margin-top: 100px;

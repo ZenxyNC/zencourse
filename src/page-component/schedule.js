@@ -39,16 +39,32 @@ export default function Schedule() {
   };
 
   const [day, setDay] = useState(getDay('current'));
+  const [navigation, setNavigation] = useState(false)
+
+  function fsetNavigation(to) {
+    if (window.innerWidth >= 900) {
+      setNavigation(false)
+    } else {
+      setNavigation(to)
+    }
+  }
 
   return (
     <>
       <div id='base-body'>
-        <div id='navigation-page'>
+        <div className={`navigation-page ${navigation ? 'show' : 'hidden'}`}>
           <div id='navigationPage-title'>ZenCourse</div>
+          <div id='navigation-content-grid'></div>
+          <div className='navigation-content-href'>
+            <div className='navigation-href-title' onClick={() => navigate('/zencourse/home', {replace : true})}>Home</div><br/>
+            <div className='navigation-href-title' onClick={() => fsetNavigation(false)}>Schedule</div><br/>
+            <div className='navigation-href-title' onClick={() => navigate('/zencourse/home', {replace : true})}>Task</div><br/>
+            <div className='navigation-href-title' onClick={() => navigate('/zencourse/home', {replace : true})}>Presence</div>
+          </div>
         </div>
         <div id='floating-navbar'>
           <img src={zen} id='navbar-icon' onClick={() => navigate('/zencourse/home', {replace : true})} alt=''/>
-          <div id='burger-menu'>
+          <div id='burger-menu' onClick={() => fsetNavigation(true)}>
           </div>
         </div>
         <div id="schedule-images">
