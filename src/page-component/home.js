@@ -29,13 +29,22 @@ export default function Home() {
           <span>{username}</span>
         </div>
         <div id='widget'>
-          <div className='widget-title'>Summary</div>
-          <span className='widget-body'>
-            hello world
-          </span>
-          <span className='widget-body'>
-            hello world
-          </span>
+          {/*Summary tiles*/}
+          <div id='summary-tiles'>
+            <div className='widget-title'>Summary</div>
+            <div className='widget-body'></div>
+            <div className='widget-body'></div>
+          </div>
+
+          {/*Utilities*/}
+          <div id='utilities-tiles'>
+            <div className='widget-title'>Utilities</div>
+            <div className='utilities-button-panel'>
+              <button onClick={() => navigate('/zencourse/utilities/schedule', {replace : true})} className='utilities-button'>Schedule</button><br/>
+              <button className='utilities-button'>Task</button><br/>
+              <button className='utilities-button'>Presence</button>
+            </div>
+          </div>
         </div>
       </div>
     </>
