@@ -81,12 +81,12 @@ html {
   }
   #widget-base {
     position: absolute;
-    background-color: transparent;
+    background-color: red;
     width: 400px;
     height: calc(100% - 200px);
     left: 50%;
     transform: translateX(-50%);
-    top: 220px
+    top: 100px
   }
   .desktop-greeting {
     display: none;
@@ -106,7 +106,6 @@ html {
     height: max-content;
     background-color: transparent;
     position: absolute;
-    top: 0px
   }
   #widget span:nth-child(2) {
     right: -10px
