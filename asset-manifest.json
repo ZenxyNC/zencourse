@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/zencourse/static/css/main.b18e03c6.css",
-    "main.js": "/zencourse/static/js/main.805505a0.js",
-    "static/js/453.31bf9d75.chunk.js": "/zencourse/static/js/453.31bf9d75.chunk.js",
+    "main.css": "/zencourse/static/css/main.2bdd4d94.css",
+    "main.js": "/zencourse/static/js/main.292a7d6a.js",
+    "static/js/453.a6a97343.chunk.js": "/zencourse/static/js/453.a6a97343.chunk.js",
     "static/media/Wednesday-XI.png": "/zencourse/static/media/Wednesday-XI.04cd587969506085ea92.png",
     "static/media/Monday-XI.png": "/zencourse/static/media/Monday-XI.af521361dea8cd27b9d8.png",
     "static/media/Tuesday-XI.png": "/zencourse/static/media/Tuesday-XI.68b233f7009758785079.png",
@@ -16,12 +16,12 @@
     "static/media/ProductSans-Bold.ttf": "/zencourse/static/media/ProductSans-Bold.153c4f86d79ce54c810c.ttf",
     "static/media/ProductSans-Black.ttf": "/zencourse/static/media/ProductSans-Black.99679fcb879a842df8c5.ttf",
     "index.html": "/zencourse/index.html",
-    "main.b18e03c6.css.map": "/zencourse/static/css/main.b18e03c6.css.map",
-    "main.805505a0.js.map": "/zencourse/static/js/main.805505a0.js.map",
-    "453.31bf9d75.chunk.js.map": "/zencourse/static/js/453.31bf9d75.chunk.js.map"
+    "main.2bdd4d94.css.map": "/zencourse/static/css/main.2bdd4d94.css.map",
+    "main.292a7d6a.js.map": "/zencourse/static/js/main.292a7d6a.js.map",
+    "453.a6a97343.chunk.js.map": "/zencourse/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18e03c6.css",
-    "static/js/main.805505a0.js"
+    "static/css/main.2bdd4d94.css",
+    "static/js/main.292a7d6a.js"
   ]
 }
