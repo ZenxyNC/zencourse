@@ -42,6 +42,7 @@
   font-family: 'GSansMedium';
   font-size: 15px;
   text-align: center;
+  transition: 0.5s;
 }
 .day-button-wed.idle {
   width: 80.2px;
@@ -55,6 +56,7 @@
   font-family: 'GSansMedium';
   font-size: 13px;
   text-align: center;
+  transition: 0.5s;
 }
 .day-button-wed.active {
   width: 80.2px;
@@ -82,6 +84,7 @@
   font-family: 'GSansMedium';
   font-size: 15px;
   text-align: center;
+  transition: 0.5s;
 }
 #navbar-icon{
   width: 50px;
@@ -152,6 +155,7 @@
     font-family: 'GSansMedium';
     font-size: 15px;
     text-align: center;
+    transition: 0.5s;
   }
   .day-button-wed.idle {
     width: 94px;
@@ -165,6 +169,7 @@
     font-family: 'GSansMedium';
     font-size: 13px;
     text-align: center;
+    transition: 0.5s;
   }
   .day-button-wed.active {
     width: 94px;
@@ -192,5 +197,6 @@
     font-family: 'GSansMedium';
     font-size: 15px;
     text-align: center;
+    transition: 0.5s;
   }
 }
