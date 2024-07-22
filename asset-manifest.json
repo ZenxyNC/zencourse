@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zencourse/static/css/main.854906b1.css",
-    "main.js": "/zencourse/static/js/main.c612ecac.js",
+    "main.css": "/zencourse/static/css/main.696896f7.css",
+    "main.js": "/zencourse/static/js/main.6b9b3728.js",
     "static/js/453.a6a97343.chunk.js": "/zencourse/static/js/453.a6a97343.chunk.js",
     "static/media/quotes-of-the-day.jpg": "/zencourse/static/media/quotes-of-the-day.8ec5eccf177c53c7248f.jpg",
     "static/media/Wednesday-XI.png": "/zencourse/static/media/Wednesday-XI.04cd587969506085ea92.png",
@@ -17,12 +17,12 @@
     "static/media/ProductSans-Bold.ttf": "/zencourse/static/media/ProductSans-Bold.153c4f86d79ce54c810c.ttf",
     "static/media/ProductSans-Black.ttf": "/zencourse/static/media/ProductSans-Black.99679fcb879a842df8c5.ttf",
     "index.html": "/zencourse/index.html",
-    "main.854906b1.css.map": "/zencourse/static/css/main.854906b1.css.map",
-    "main.c612ecac.js.map": "/zencourse/static/js/main.c612ecac.js.map",
+    "main.696896f7.css.map": "/zencourse/static/css/main.696896f7.css.map",
+    "main.6b9b3728.js.map": "/zencourse/static/js/main.6b9b3728.js.map",
     "453.a6a97343.chunk.js.map": "/zencourse/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.854906b1.css",
-    "static/js/main.c612ecac.js"
+    "static/css/main.696896f7.css",
+    "static/js/main.6b9b3728.js"
   ]
 }
