@@ -241,3 +241,11 @@ button {
   display: block;
   place-items: start;
 }
+.inner-widget-title {
+  font-family: 'GSansBold';
+  font-size: 20px;
+  color: #E8E8E8;
+  position: absolute;
+  top: 7px;
+  left: 13px
+}

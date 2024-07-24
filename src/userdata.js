@@ -24,8 +24,8 @@ export const data = [
     "user": "dblofield7",
     "ssc": "rbecpC6D"
   }, {
-    "user": "rdench8",
-    "ssc": "faqpjJ6,D>"
+    "user": "Cella",
+    "ssc": "Cella2089"
   }, {
     "user": "Lucas",
     "ssc": "Lucas2308"

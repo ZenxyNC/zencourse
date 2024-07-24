@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './css/home.css'
 import zen from './Icon.png'
+import lcs from '../resource/profile.jpg'
 
 export default function Home() {
   const quotesQuery = [
@@ -40,7 +41,7 @@ export default function Home() {
   return (
     <>
       <div id='homenav'>
-        <img src={zen} alt='' id='homenav-profile'/>
+        <img src={lcs} alt='' id='homenav-profile'/>
         <div id='user-greeting'>
           <span>Hello, </span><br/>
           <span>{username}</span>
@@ -55,8 +56,12 @@ export default function Home() {
           {/*Summary tiles*/}
           <div id='summary-tiles'>
             <div className='widget-title'>Summary</div>
-            <div className='widget-body'></div>
-            <div className='widget-body'></div>
+            <div className='widget-body'>
+              <div className='inner-widget-title'>Presence</div>
+            </div>
+            <div className='widget-body'>
+              <div className='inner-widget-title'>Task</div>
+            </div>
           </div>
 
           {/*Utilities*/}
@@ -64,7 +69,7 @@ export default function Home() {
             <div className='widget-title'>Utilities</div>
             <div className='utilities-button-panel'>
               <button onClick={() => navigate('/zencourse/utilities/schedule', {replace : true})} className='utilities-button'>Schedule</button><br/>
-              <button className='utilities-button'>Task</button><br/>
+              <button onClick={() => navigate('/zencourse/utilities/task', {replace : true})} className='utilities-button'>Task</button><br/>
               <button className='utilities-button'>Presence</button>
             </div>
             <div id='quotesOfTheDay' onClick={setQuotesStatus}>

@@ -14,8 +14,8 @@ export default function Login() {
 
   const proceedLogs = (e) => {
     e.preventDefault()
-    const validation = data.find((validation) => validation.user === UID && validation.ssc === security.ssc)
-    if (validation) {
+    const unpassval = data.find((unpassval) => unpassval.user === UID && unpassval.ssc === security.ssc)
+    if (unpassval) {
       localStorage.setItem('user', UID)
       localStorage.setItem('isLoggedIn', true)
       navigate('/zencourse/home', {replace : true})

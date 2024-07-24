@@ -66,6 +66,7 @@ export default function Schedule() {
           <img src={zen} id='navbar-icon' onClick={() => navigate('/zencourse/home', {replace : true})} alt=''/>
           <div id='burger-menu' onClick={() => fsetNavigation(true)}>
           </div>
+          <div id='user-profile' onClick={() => navigate('/zencourse/utilities/settings', {replace : true})}></div>
         </div>
         <div id="schedule-images">
           <img src={dayToImage[day]} alt={day} id='schedule-image'/>

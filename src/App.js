@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-route
 import Login from './page-component/login.js';
 import Home from './page-component/home.js';
 import Schedule from './page-component/schedule.js'
+import Task from './page-component/task.js'
+import Settings from './page-component/settings.js'
+import NotFound from './page-component/notfound.js'
+import UnderConstruction from './page-component/underconstruction.js'
 
 function App() {
   return (
@@ -11,7 +15,11 @@ function App() {
         <Route path="/zencourse/login" element={<Login />} />
         <Route path="/zencourse/home" element={<Home />} />
         <Route path="/zencourse/utilities/schedule" element={<Schedule />} />
+        <Route path="/zencourse/utilities/task" element={<Task />} />
+        <Route path="/zencourse/utilities/settings" element={<Settings />} />
         <Route path="/zencourse" element={<MainApp />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path='/zencourse/under-construction' element={<UnderConstruction />} />
       </Routes>
     </Router>
   );
