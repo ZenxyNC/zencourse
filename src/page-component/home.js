@@ -69,8 +69,8 @@ export default function Home() {
             <div className='widget-title'>Utilities</div>
             <div className='utilities-button-panel'>
               <button onClick={() => navigate('/zencourse/utilities/schedule', {replace : true})} className='utilities-button'>Schedule</button><br/>
-              <button onClick={() => navigate('/zencourse/utilities/task', {replace : true})} className='utilities-button'>Task</button><br/>
-              <button className='utilities-button'>Presence</button>
+              <button onClick={() => navigate('/zencourse/under-construction', {replace : true})} className='utilities-button'>Task</button><br/>
+              <button onClick={() => navigate('/zencourse/under-construction', {replace : true})} className='utilities-button'>Presence</button>
             </div>
             <div id='quotesOfTheDay' onClick={setQuotesStatus}>
               <div className={`quotesButton ${isQuotes ? 'opened' : 'idle'}`}>

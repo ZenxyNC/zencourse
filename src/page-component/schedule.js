@@ -5,7 +5,7 @@ import tuesday from '../resource/schedule-image/Tuesday-XI.png';
 import wednesday from '../resource/schedule-image/Wednesday-XI.png';
 import thursday from '../resource/schedule-image/Thursday-XI.png';
 import friday from '../resource/schedule-image/Friday-XI.png';
-import zen from '../resource/Icon.png';
+import zen from '../resource/Icon.png'
 import { useNavigate } from 'react-router-dom';
 
 export default function Schedule() {

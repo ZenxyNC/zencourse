@@ -1,0 +1,17 @@
+.back-cons {
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007AFF;
+  color: #E8E8E8;
+  font-family: 'GSansMedium';
+  font-size: 19px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+.title-cons {
+  text-align: center;
+}
