@@ -1,4 +1,4 @@
-export const data = [
+   export const data = [
   {
     "user": "smoncaster0",
     "ssc": "qvynuS5$.kfEtghO"
