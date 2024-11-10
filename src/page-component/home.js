@@ -26,7 +26,7 @@ export default function Home() {
   if (isLoggedIn) {
 
   } else {
-    navigate('/zencourse/login', {replace : true})
+    
   }
   function setQuotesStatus() {
     if (isQuotes) {
